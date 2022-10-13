@@ -14,7 +14,7 @@ function App() {
     dispatch(fetchConvert());
   }, [dispatch]);
 
-  console.log(store.getState())
+  // console.log(store.getState())
  
   // apiFatch('uah', 'usd')
   // apiFatch('uah', 'EUR')
